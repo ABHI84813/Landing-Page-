@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: black;
+  background-color: peachpuff;
+}
+
+header {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: antiquewhite;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: chocolate;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: fuchsia;
+}
+
+
+#adiv {
+  background-image:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5)), url('travel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 0px solid black;
+  border-radius: 100px;
+}
+
+#adiv h1 {
+  font-size: 48px;
+}
+
+#adiv p {
+  font-size: 24;
+  color: black;
+}
+
+#features {
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+#testimonials {
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+#contact {
+  border: 0px solid black;
+  border-radius: 10px;
+}
